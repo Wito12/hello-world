@@ -10,5 +10,6 @@ print("NWD(0, 5) =", nwd(0, 5))
 print("NWD(0, 0) =", nwd(0, 0))    
 
 """
-
+    Pętla wykonuje się dopóki b jest różne od zera.
+    W każdej iteracji para (a, b) jest zastępowana przez (b, a % b).
 """
