@@ -6,3 +6,8 @@ for i in range(1, len(tab)):
         max_val = tab[i]
 
 print(max_val)
+
+#Nie obsluguje pustych tablic. ale można by dodać 
+#if len(tab) == 0:
+#       return None  # Tablica jest pusta
+#Wymaga jednokrotnego przejścia przez całą tablicę, co daje złożoność czasową O(n).
